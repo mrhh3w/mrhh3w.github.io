@@ -1,1 +1,10 @@
 h1 { color: royalblue;}
+
+footer {font-size: 10pt;}
+
+a:link {color: blue}
+a:hover {color: crimson}
+a:focus {color: blue}
+a:visited {color: orchid}
+a:active {color: chartreuse}
+a {text-decoration: none;font-size 10pt}
