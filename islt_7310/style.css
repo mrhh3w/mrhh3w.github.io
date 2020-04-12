@@ -1,4 +1,11 @@
-h1 { color: royalblue;}
+h1 { color: royalblue;font-size: 10pt;font-family:fantasy}
+
+h3 {color: dodgerblue;font-size: 15pt;}
+
+p {font-size: 13pt;}
+
+#highschool {color: dodgerblue}
+#college {color: orange}
 
 footer {font-size: 10pt;}
 
@@ -7,4 +14,6 @@ a:hover {color: crimson}
 a:focus {color: blue}
 a:visited {color: orchid}
 a:active {color: chartreuse}
-a {text-decoration: none;font-size 10pt}
+a {text-decoration: none;font-size: 10pt;}
+
+main li {color:darkorange;}
