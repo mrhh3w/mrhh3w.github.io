@@ -1,5 +1,23 @@
-h1 { color: royalblue;font-size: 24pt;font-family:fantasy}
-h1 {background-color: ghostwhite;width: 275px; border-style: solid}
+<!--
+*****************************************************************************
+
+Title:  CSS Style
+
+Use:  All the COlors
+
+Author:  Matthew Henderson
+
+School/Term: University of Missouri, Spring 2020
+
+Developed: Feb 9, 2019
+
+Tested:  Feb 12, 2020 Passed on Chrome browsers.
+
+***********************************************************************s*******
+-->
+
+
+h1 { color: royalblue;font-size: 24pt;font-family:fantasy; background-color: ghostwhite;width: 275px; border-style: solid}
 
 h3 {color: dodgerblue;font-size: 15pt;}
 
@@ -24,10 +42,12 @@ a:hover {color: crimson}
 a:focus {color: blue}
 a:visited {color: orchid}
 a:active {color: chartreuse}
+
 a {text-decoration: none;font-size: 10pt;}
 
 main li {color:darkorange;}
 
-body {background-color: azure;}
+body {background-color: azure;margin: 15px}
 
-footer {border-top: solid;border-top-width: 2px}
+footer {border-top: solid;border-top-width: 2px;padding: 5px}
+
