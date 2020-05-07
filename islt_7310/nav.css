@@ -7,4 +7,19 @@ nav ul li {
         margin-top: 0;
         margin-left: 10px;
  }
+
 #navigation {text-align: center}
+
+
+nav ul li a:hover { 
+    border: 1px dotted black;
+    }
+
+nav>ul li {width: 100px;
+position: relative;
+background-color: white;}
+
+nav>ul>li>ul { position: absolute;top: 110%;
+    left: -37%; display: none;}
+
+nav>ul>li:hover>ul {display: block}

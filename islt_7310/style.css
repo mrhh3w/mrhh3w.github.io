@@ -1,4 +1,4 @@
-<!--
+    <!--
 *****************************************************************************
 
 Title:  CSS Style
@@ -13,9 +13,8 @@ Developed: Feb 9, 2019
 
 Tested:  Feb 12, 2020 Passed on Chrome browsers.
 
-***********************************************************************s*******
+******************************************************************************
 -->
-
 
 h1 { color: royalblue;font-size: 24pt;font-family:fantasy; background-color: ghostwhite;width: 275px; border-style: solid}
 

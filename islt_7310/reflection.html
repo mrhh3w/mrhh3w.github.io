@@ -4,34 +4,81 @@
     <!--
 *****************************************************************************
 
-Title:  Template
+Title:  Reflection
 
-Use:  Website Template.
+Use:  For the reflection
 
 Author:  Matthew Henderson
 
 School/Term: University of Missouri, Spring 2020
 
-Developed: Feb 5, 2019
+Developed: May 7, 2019
 
-Tested:  Feb 5, 2020; Passed on Chrome browsers.
+Tested:  May 7, 2020; Passed on Chrome browsers.
 
 ******************************************************************************
 -->
-    <meta charset="utf-8">
-    <title>Page Title</title>
+<meta charset="utf-8">
+    
+<link rel="stylesheet" href=style.css>
+<link rel="stylesheet" href=nav.css>
+    
+<title>Reflection</title>
+    
+<style>
+#letter::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+} 
+    #dent {text-indent: 50px}
+    
+    p {display: block; width: 1000px}
+</style>
+
+       
 </head>
     
 <body>
-<p>
+
+ <nav>
+<ul id="navigation">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="accomplishments.html">Accomplishments</a></li>
+    
+    <li><a href="#">Experience</a>
+    <ul id="dropdown">
+    <li><a href="#">Goal 1</a></li>
+    <li><a href="#">Goal 2</a></li>
+    <li><a href="#">Goal 3</a></li>
+    </ul>
+    </li>
+    <li><a href="reflection.html">Career Reflection</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+</nav>          
     
     
     
     
-</p>     
+<h1> Career Reflection</h1>
+
+<h3> Career Goals</h3>
+    
+<main>
+<p id="letter">
+As a sophomore in college it's hard to decide what my career will look like. Whether I decide to go into broadcasting, private sector, or working for the government. However within these last two years of my Bachelors theres a few things that I wish to accomplish before I take off into my career choice. Theres still so much to learn and choices to acknowledge, narrowing it down would be my top priority. </p>
+    
+<p id="dent"> I wish to pursue all different areas in meteorology to get a feeling of what I want to do. I want a position that will let me help anyone. Thats why internships with the NWS or FEMA would be my main goal. Helping directly or indirectly is the career choice I wish to pursue. That can include all sorts of careers though.</p>    
+
+<p id="dent">
+Another goal of mine would be looking into the research section of my major, possibly pursuing a Masters degree. At the University of Missouri I have a handfull of mentors and students that could help me deicide as well. If im going to be honest that would be a little further off my career path. As much as I love school, I want out sometime to live my life haha.    
+    
+</p>
+</main>
 </body>
     
     
-<footer>&copy; <small> Matthew Henderson mrrh3w@mail.missouri.edu</small> </footer>
+<footer>&copy; <small> Matthew Henderson mrrh3w@mail.missouri.edu</small></footer>
 
 </html>
